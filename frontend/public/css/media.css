@@ -1,0 +1,43 @@
+@media only screen and (max-device-width: 667px) {
+    .chat {
+        position: fixed;
+        bottom: 10px;
+    }
+}
+
+
+@media (max-width:900px) {
+    .chat {
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .chat-option {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 1s, opacity 0.5s linear;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 1920px) {
+    .phone {
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+    }
+
+    .p-not-phone {
+        display: none;
+    }
+}

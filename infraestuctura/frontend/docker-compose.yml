@@ -1,0 +1,10 @@
+frontend-node:
+  build: .
+  container_name: 'frontend-node'
+#  restart: always
+  ports:
+   - 4200:4200
+   - 5001:5001
+   - 3000:3000
+  volumes:
+   - "${FRONT}:/frontend"

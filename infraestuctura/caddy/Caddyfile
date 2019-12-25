@@ -1,0 +1,10 @@
+http://localhost {
+    proxy / frontend-node:5001 {
+            transparent
+        }
+
+    errors stderr
+    tls jjovanovich@cdt.com.ar
+#    tls off
+}
+

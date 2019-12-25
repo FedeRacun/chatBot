@@ -1,0 +1,16 @@
+version: "2"
+services:
+
+  backend-node:
+    build: ./nodejs
+    ports:
+    - "5000:5000"
+    volumes:
+    - ${BACK}:/app
+
+    networks:
+      - front-certi
+
+networks:
+  front-certi:
+    driver: bridge

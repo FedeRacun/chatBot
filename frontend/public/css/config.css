@@ -1,0 +1,10 @@
+:root{
+
+--main-color: #118bca; /* Este color se aplica al titulo del chat , al borde superior del cuadro de busqueda, al boton send y a los mensajes del usuario */
+
+--text-btn: #0d9ec4; /*Estos son los botones que envia dialogFlow */
+--bg-btn: #fff;
+
+--hover-btn: #b9b9b9; /*El :hover de los botones de DialogFlow */
+--text-hover-btn: #ffffff;
+}
